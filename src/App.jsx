@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Lima Previsão do Tempo</h1>
+      <h1> Previsão do Tempo</h1>
       <input ref={inputRef} type="text" placeholder="Digite o nome da cidade" onKeyDown={(e) => e.key === "Enter" && searchCity()} />
       <button onClick={searchCity}>Buscar</button>
 
